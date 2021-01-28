@@ -1,0 +1,91 @@
+$hover: #fcd7b6;
+$active: #a3bbc8;
+
+$header-1: #243f4d;
+$header-2: #436372;
+$header-3: #a3bbc8;
+$header-4: #fcd7b6;
+$header-5: #edf1f4;
+
+$footer-1: #1f2044;
+$footer-2: #7b7b7b;
+
+$slider-dot: #fff;
+$slider-dot-bg: #fce3cc;
+
+$features-bg: #fef6f0;
+$features-line: #e7e2de;
+
+$products-title: #191919;
+
+%menu-link {
+  &:hover {
+    color: $hover;
+  }
+
+  &:active {
+    color: $active;
+  }
+
+  &:focus {
+    outline: 1px solid $hover;
+  }
+}
+
+%button {
+  &:hover {
+    color: #000;
+  }
+
+  &:active {
+    background-color: $header-5;
+  }
+
+  &:focus {
+    outline: 1px solid $hover;
+  }
+}
+
+%button-slider {
+  &:hover {
+    background-color: $header-2;
+  }
+
+  &:active {
+    background-color: $footer-2;
+  }
+
+  &:focus {
+    outline: 1px solid $header-5;
+  }
+}
+
+%rubik-400 {
+  font-family: 'Rubik-Regular', sans-serif;
+  font-weight: normal;
+}
+
+%rubik-500 {
+  font-family: 'Rubik-Medium', sans-serif;
+  font-weight: 500;
+}
+
+%rubik-700 {
+  font-family: 'Rubik-Bold', sans-serif;
+  font-weight: 700;
+}
+
+%dmsans-400 {
+  font-family: 'DMSans-Regular', sans-serif;
+  font-weight: normal;
+}
+
+%dmsans-500 {
+  font-family: 'DMSans-Medium', sans-serif;
+  font-weight: 500;
+}
+
+%dmsans-700 {
+  font-family: 'DMSans-Bold', sans-serif;
+  font-weight: bold;
+}
